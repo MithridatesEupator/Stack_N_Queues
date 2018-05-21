@@ -9,11 +9,8 @@ namespace Stacks_N_Queues
     class Stacks 
     {
 
-
         private Object[] stackArray;
-
         private int stackSize;
-
         private int topEntry = -1;
 
         public class Arrays
@@ -40,11 +37,11 @@ namespace Stacks_N_Queues
             {
                 topEntry++;
                 stackArray[topEntry] = input;
-                Console.Write(input + " was added to the Stack \n");
+                Console.Write(input + " was added to the Stack\n");
             }
             else
             {
-                Console.WriteLine("Error: Stack is Full \n");
+                Console.WriteLine("Error: Stack is Full\n");
             }
         }
 
@@ -54,7 +51,7 @@ namespace Stacks_N_Queues
             {
                 Object pop = stackArray[topEntry];
                 stackArray[topEntry] = null;
-                Console.WriteLine(pop + " was popped");
+                Console.WriteLine(pop + " was popped \n");
                 topEntry--;
                 return pop;
             }
@@ -65,22 +62,27 @@ namespace Stacks_N_Queues
         }
 
         public void displayStack()
-        {
-            foreach(object item in stackArray)
+        {   
+            Console.WriteLine("\n--------[DISPLAY STACK]--------");
+            foreach (object item in stackArray)
             {
                 if (item != null)
                 {
                     Console.WriteLine(item.ToString());
                 }
-                
             }
+            Console.WriteLine("-------------------------------");
         }
 
         static void Main()
         {
             Stacks test = new Stacks(6);
-            test.push("s");
-            test.push("b");
+            test.push("10");
+            test.push("22");
+            test.push("33");
+            test.push("42");
+            var t = test.pop();
+            Console.WriteLine(t);
             test.displayStack();
         }
     }
