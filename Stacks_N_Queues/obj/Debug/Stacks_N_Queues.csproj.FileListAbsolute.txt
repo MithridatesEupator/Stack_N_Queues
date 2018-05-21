@@ -1,0 +1,7 @@
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\bin\Debug\Stacks_N_Queues.exe.config
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\bin\Debug\Stacks_N_Queues.exe
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\bin\Debug\Stacks_N_Queues.pdb
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\obj\Debug\Stacks_N_Queues.csprojResolveAssemblyReference.cache
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\obj\Debug\Stacks_N_Queues.csproj.CoreCompileInputs.cache
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\obj\Debug\Stacks_N_Queues.exe
+C:\Users\Filip\source\repos\Stacks_N_Queues\Stacks_N_Queues\obj\Debug\Stacks_N_Queues.pdb
